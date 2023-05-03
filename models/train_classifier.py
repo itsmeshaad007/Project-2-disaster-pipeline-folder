@@ -86,7 +86,7 @@ def build_model():
     parameters = {
     'tfidf__norm':['l2','l1'],
     #'vect__stop_words': ['english',None],
-    'clf__estimator__learning_rate' :[0.1, 0.5, 1],
+    'clf__estimator__learning_rate' :[0.1, 0.5],
     'clf__estimator__n_estimators' : [50, 60],
     }
     #create grid search object
